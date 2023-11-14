@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradient {
+	background: radial-gradient(
+		circle farthest-corner at 10% 20%,
+		rgba(155, 81, 224, 1) 0%,
+		rgba(48, 129, 237, 1) 90%
+	);
+	background-repeat: repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p {
+	margin-bottom: 0 !important;
+}
